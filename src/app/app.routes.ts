@@ -11,7 +11,7 @@ import { SignInComponent } from './sign-in/sign-in.component';
 
 
 export const routes: Routes = [
-  {path: '', redirectTo: './landingpage', pathMatch: 'full'},
+  {path: '', redirectTo: 'landingpage', pathMatch: 'full'},
   {path: 'landingpage', component: LandingpageComponent},
   {path: 'dashboard', component: DashboardComponent},
   {path: 'screen-one', component: ScreenOneComponent},
