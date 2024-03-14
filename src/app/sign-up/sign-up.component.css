@@ -1,0 +1,101 @@
+
+.upLeft__bottomlists{
+display: flex;
+align-items: center;
+gap: 16px;
+color: #2e2e2e;
+}
+
+.sign__upLeft, .sign__upRight{
+    width: 50%;
+    height: 100vh;
+}
+.upLeft__mid{
+    padding-bottom: 20px;
+    line-height: 158%;
+    color: #2e2e2e;
+}
+.sign__upRight{
+    background: #E94085;
+    display: flex;
+    align-items: center;
+}
+.sign__up{
+    height: 100vh;
+}
+.sign__upContainer{
+    display: flex;
+}
+.upLeft__title{
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 120%;
+}
+.upLeft__body{
+    width: 80%;
+    margin: auto;
+    padding-top: 140px;
+}
+.upLeft__top{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.upLeft__bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.upRight__body{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.form__title{
+    font-size: 24px;
+    color: white;
+}
+.form__description{
+    color: white;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+input{
+    width: 400px;
+    height: 48px;
+    border-radius: 8px;
+    border: none !important;
+}
+.form__top{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.form__up{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.signup__btn{
+    width: 400px;
+    height: 52px;
+    border-radius: 8px;
+    background:#1d1204;
+    border: none !important;
+    color: #f8f8f8;
+    cursor: pointer;
+}
+.signup__btn:hover{
+    background: #dadada;
+    color: #E94085;
+}
+.form__body{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}

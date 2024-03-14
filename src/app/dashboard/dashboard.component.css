@@ -1,0 +1,13 @@
+.dashboard__container{
+    display: flex;
+}
+
+.dash__rightBody{
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+.dash__rightBottom{
+    width: 80%;
+    margin: auto;
+}

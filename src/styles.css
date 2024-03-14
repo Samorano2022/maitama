@@ -1,0 +1,214 @@
+/* You can add global styles to this file, and also import other style files */
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+  }
+  :root{
+    --black: #1D1204;
+    --primary-color: #E94085;
+    --white: white;
+    --grey: #f0f0f0;
+  }
+  body {
+    overflow-x: hidden;
+    width: 100%;
+    text-decoration: none;
+    font-family: "Archivo", sans-serif;
+  }
+  .landingpage__section{
+    width: 100%;
+    height: 100vh;
+    background: url(assets/bggg.png);
+    background-repeat: no-repeat;
+    background-size: cover space;
+  }
+  .hero {
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero__main {
+    width: 80%;
+    margin: auto;
+    display:flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  }
+  .hero__header{
+    padding-top: 30px;
+    width: 80%;
+    margin: auto;
+  }
+  .header__wrapper {
+    height: 80px;
+  }
+  .header__desktop {
+    width: 80%;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .header__mid {
+    background: var(--header-color);
+    backdrop-filter: blur(250px);
+    border-radius: 50px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    width: 40%;
+  }
+  
+  .header {
+    width: 100vw;
+    transition: all 0.3s;
+    position: fixed;
+    background: #fff;
+    z-index: 5;
+    left: 0;
+  }
+  .header__bar {
+    background: #fff;
+    box-shadow: 0px 6px 8px 0px rgba(167, 168, 253, 0.08);
+  }
+  .header__mobile {
+    display: none;
+  }
+  .header__text {
+    font-size: clamp(12px, 2.5vw, 13px);
+  }
+  
+  .header__btn {
+    background: linear-gradient(90.99deg, #8349e9 6.3%, #ec167f 110.67%);
+    border-radius: 100px;
+    font-size: 12px;
+    color: white;
+    padding: 15px;
+  }
+  
+  .header__links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 14px;
+  }
+  
+  .header__links a {
+    color: #0C0C0C;
+    font-family: "Archivo", sans-serif;
+  font-optical-sizing: auto;
+    font-size: 13px;
+    font-style: normal;
+    cursor: pointer;
+  }
+  .header__bar {
+    background: #fff;
+    box-shadow: #282828;
+  }
+  .header__mobile {
+    display: none;
+  }
+  .hero__left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    width: 50%;
+    padding-top: 150px;
+  }
+  .hero__right{
+    width: 50%;
+  }
+  a {
+    text-decoration: none;
+  }
+ 
+  .register__btn{
+    display: flex;
+  width: 120px;
+  height: 42px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 100px;
+  border: 1px solid #FDFDFD;
+  color: var(--primary-color);
+  background: var(--black);
+  font-family: "Archivo", sans-serif;
+  font-optical-sizing: auto;
+    font-size: 14px;
+    font-style: normal;
+  }
+  .register__btn:hover{
+    background: var(--primary-color);
+    color: var(--black);
+    border: none;
+  }
+  .hero__btn {
+    width: 150px;
+    padding: 18px 28px;
+    border-radius: 10px;
+    background: var(--black);
+    text-align: center;
+    font-family: "Archivo", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+    cursor: pointer;
+  }
+  .hero__btn:hover{
+    background: var(--primary-color);
+    color: whitesmoke;
+  }
+ 
+  .ctn__btn {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+  }
+
+  .larger__text {
+    color: var(--black);
+    font-family: "Archivo", sans-serif;
+    font-optical-sizing: auto;
+  text-align: left;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 109%;
+  letter-spacing: 1.68px;
+  }
+  .head__one {
+    width: 100%;
+    margin: auto;
+    color: var(--black);
+  text-align: left;
+  font-family: "Archivo", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 174%; /* 32.8px */
+  letter-spacing: 0.04px;
+  }

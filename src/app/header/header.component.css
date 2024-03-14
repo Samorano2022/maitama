@@ -1,0 +1,8 @@
+.header{
+    width: 1221px;
+    height: 60px;
+    background: #7e5b5b;
+    display: flex;
+    justify-content: end;
+    margin-left: 300px;
+}

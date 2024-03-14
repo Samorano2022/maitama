@@ -1,0 +1,46 @@
+<div class="dashboard">
+    <div class="dashboard__container">
+        <div class="dash__left">
+            <app-sidebar></app-sidebar>
+        </div>
+        <div class="dash__right">
+            <div class="dash__rightBody">
+                <div class="dash__rightUp">
+                    <app-header></app-header>
+                </div>
+                <div class="dash__rightBottom">
+                    <app-welcome-text></app-welcome-text>
+                    <div class="card__section">
+                        <div class="card__one"></div>
+                        <div class="card__two"></div>
+                        <div class="card__three"></div>
+                    </div>
+
+                    <p-table [value]="products" styleClass="p-datatable-striped" [tableStyle]="{'min-width': '57rem'}">
+                        <ng-template pTemplate="header">
+                            <tr>
+                                <th>Date</th>
+                                <th>Patient's Name</th>
+                                <th>Vaccine Type</th>
+                                <th>Status</th>
+                                <th>Action</th>
+                            </tr>
+                        </ng-template>
+                        <ng-template pTemplate="body" let-product>
+                            <tr>
+                                <td>12/05/2024</td>
+                                <td>David Rebecca</td>
+                                <td>Fully vaccinated</td>
+                                <td>Pending</td>
+                                <td>
+                                    <button>View</button>
+                                </td>
+                            </tr>
+                        </ng-template>
+                    </p-table>
+                    <!-- <app-sign-up></app-sign-up> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
