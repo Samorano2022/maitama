@@ -1,18 +1,20 @@
 .name__section{
     display: flex;
     flex-direction: column;
-    height: 250px;
-    background: #060602;
+    height: 90px;
+    /* background: #060602; */
 
 }
 
 h5{
     font-size: 20px;
     font-family: "Archivo", sans-serif;
-    color:blanchedalmond;
+    color: #171717;
+    padding-bottom: 6px;
+    line-height: 123%;
 }
 
-p{  font-size: 16px;
+p{  font-size: 10px;
     font-family: "Archivo", sans-serif;
-    color:blanchedalmond;
+    color: #2e2e2e;
 }

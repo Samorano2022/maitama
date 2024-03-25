@@ -70,6 +70,7 @@ input{
     height: 48px;
     border-radius: 8px;
     border: none !important;
+    padding: 0 16px;
 }
 .form__top{
     display: flex;

@@ -1,0 +1,21 @@
+.card{
+    height: 120px;
+    width: 220px;
+    background: #f7f7f7;
+    padding: 16px;
+    border-radius: 24px;
+    border: 1px solid #d6d6d6;
+}
+.card__name{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+span{
+    font-size: 30px;
+    font-weight: 600;
+}
+.card__section{
+background: #000;
+height: 120px;
+}

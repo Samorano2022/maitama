@@ -10,4 +10,37 @@
 .dash__rightBottom{
     width: 80%;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.dash__right{
+display: flex;
+}
+.card__section{
+    display: flex;
+    gap: 24px;
+}
+th, td{
+    text-align: left;
+    padding-bottom: 8px;
+    font-size: 14px;
+}
+tr{
+    padding: 14px 0;
+}
+button{
+   height: 32px;
+   width: 80px;
+   border-radius: 8px;
+   background: #e94085;
+   color: white;
+   border: none;
+}
+table{
+    width: 750px;
+    background: #f7f7f7;
+    border: 1px solid #d6d6d6;
+    padding:16px 24px;
+    border-radius: 24px;
 }
